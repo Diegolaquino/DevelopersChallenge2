@@ -1,0 +1,19 @@
+<table>
+    <caption>Transactions</caption>
+<thead>
+  <tr>
+      <th>id</th>
+      <th>type</th>
+      <th>value</th>
+      <th>description</th>
+  </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let transaction of responseTransactions">
+        <td> {{ transaction.id }} </td>
+        <td> {{ transaction.type }}</td>
+        <td> {{ transaction.value }}</td>
+        <td> {{ transaction.description }}</td>
+    </tr>
+</tbody>
+</table>

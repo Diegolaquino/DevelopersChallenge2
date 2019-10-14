@@ -1,0 +1,44 @@
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+
+  caption {
+    font-family: 'Open Sans', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: top;
+    color: #313336;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+
+  thead th{
+      background-color: #313336;
+      color: azure;
+      font-family: "Open Sans";
+  }
+  
+  th, td {
+    padding: 20px;
+    text-align: center;
+  }

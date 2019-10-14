@@ -1,0 +1,13 @@
+<form id="super">
+  <div>
+    <label for="select-file">Select your file to send: </label>
+    <input type="file" (change)="inputFileChange($event)" multiple/>
+    <!-- <button ((click)="getOfxDataexpression()")></button> -->
+  </div>
+</form>
+<section>
+    <app-transaction>
+    </app-transaction>
+</section>
+
+<router-outlet></router-outlet>
