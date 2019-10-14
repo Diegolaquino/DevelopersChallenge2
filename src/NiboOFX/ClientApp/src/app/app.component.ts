@@ -25,8 +25,4 @@ export class AppComponent {
       alert('Enviado');
     }
   }
-
-  getOfxData(){
-    this.http.get('http://localhost:61056/api/SampleData/PostFile').subscribe(response => console.log(response));
-  }
 }
